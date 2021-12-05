@@ -7,6 +7,12 @@
     "noImplicitAny": false,
     "esModuleInterop": true,
     "moduleResolution": "node",
-    "outDir": "dist"
-  }
+    "outDir": "dist",
+    "jsx": "react"
+  },
+  "exclude": [
+    "**/*.config.*",
+    "**/*.test.*",
+    "src/setupTests.js"
+  ],
 }
