@@ -13,6 +13,7 @@
   "exclude": [
     "**/*.config.*",
     "**/*.test.*",
-    "src/setupTests.js"
+    "src/setupTests.js",
+    "stories"
   ],
 }
