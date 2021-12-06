@@ -2,7 +2,7 @@ const esbuild = require('esbuild');
 
 esbuild
   .build({
-    entryPoints: ['src/index.test.tsx'],
+    entryPoints: ['src/index.tsx'],
     outfile: 'dist/index.cjs',
     bundle: true,
     sourcemap: true,
